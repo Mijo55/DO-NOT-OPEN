@@ -1,37 +1,16 @@
-# DayZ.R Bot
+# DayZ Killfeed Bot
 
 A general purpose Discord Bot to handle DayZ Killfeed, stats, alarms and factions' armbands and more using Nitrado Log files.
 
-***Explore the docs »***
-* [Technologies](#built-with)
-* [About](#about)
-* [Support](#support)
-* [License](#license)
-* [Contributing](#contributing)
 * [Getting Started](#getting-started)  
   * [Prerequisites](#prerequisites)  
   * [Installation](#installation)
-* [Contact](#contact)
 
 ### Built With
 
 * [Node.js](https://nodejs.org/en)
 * [Discord.js](https://discord.js.org/#/)
 * [MongoDB](https://www.mongodb.com/)
-
-## About The Project
-
-Originally just a simple project to have factions select their armbands, and track that in the Discord. With the increasing difficulty of other DayZ killfeed bots, I  
-expanded this project to include the killfeed, alarms, banking, and much much more.
-
-## Support
-[» Community Support](https://discord.gg/KVFJCvvFtK)
-
-## License
-[» License](/LICENSE)
-
-## Contributing
-[» Contributing](/CONTRIBUTING.md)
 
 ## Getting Started
 
@@ -54,13 +33,11 @@ The bot requires minimal setup to get started.
 
 ### Installation
 
-1. Clone the repo
+ Clone the repo
 ```
-    $ git clone https://github.com/SowinskiBraeden/dayz-reforger.git
-    $ cd dayz-reforger
 ```
-2. Rename `.env.example` to `.env`
-3. Enter desired values into `.env`
+ Rename `.env.example` to `.env`
+ Enter desired values into `.env`
 ```
     token='Your Discord Bot token'
     mongoURI='Your mongodb URI'
@@ -70,9 +47,3 @@ The bot requires minimal setup to get started.
     AUTH_KEY='Your Nitrado Auth Token'
     GuildID='Your Discord Guild ID'
 ```
-
-## Contact
-
-Braeden Sowinski - [@BraedenSowinski](https://twitter.com/BraedenSowinski) - sowinskibraeden@gmail.com - @mcdazzzled on Discord
-
-Project Link: [https://github.com/SowinskiBraeden/dayz-reforger](https://github.com/SowinskiBraeden/dayz-reforger)
